@@ -4,7 +4,11 @@ using ImageProcessor.Imaging.Formats;
 /**
  * Quick and dirty program to convert common annoyances when saving files from the web such as:
  * - Renames *.jpg_small, *.jpg_medium, *.jpg_large, *.jfif etc... saved from Twitter to *.jpg
- * - converts *.webp to *.png
+ * - converts *.webp to *.png.
+ * 
+ * To run, open a console and cd to the directory you want to fix images on, then call this program.
+ * It should perform the above conversions on all files it detects, in the working directory and all
+ * sub directories.
  */
 
 try
